@@ -1,0 +1,38 @@
+﻿@page "/products/{categoryId:int}"
+@inject HttpClient Http
+
+<PageTitle>H+ Sport</PageTitle>
+
+<h1>H+ Sport</h1>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+	<div class="list-group">
+		@{
+			foreach (var product in products)
+			{
+				<a class="list-group-item list-group-item-action" href="Product/@product.Id">@product.Name</a>
+			}
+		}
+	</div>
+}
+
+@code {
+	[Parameter]
+	public int categoryId { get; set; }
+
+	private List<HPlusSport.AzureMigration.Models.Product>? products;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await Http.GetFromJsonAsync<List<HPlusSport.AzureMigration.Models.Product>>("sample-data/products.json");
+		if (products != null)
+		{
+			products = products.Where(p => p.CategoryId == categoryId).ToList();
+		}
+	}
+}

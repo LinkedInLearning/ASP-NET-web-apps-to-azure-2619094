@@ -1,0 +1,32 @@
+﻿@page "/"
+@using HPlusSport.AzureMigration.Models;
+@inject HttpClient Http
+
+<PageTitle>H+ Sport</PageTitle>
+
+<h1>H+ Sport</h1>
+
+@if (categories == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+	<div class="list-group">
+		@{
+			foreach (var category in categories)
+			{
+				<a class="list-group-item list-group-item-action" href="Products/@category.Id">@category.Name</a>
+			}
+		}
+	</div>
+}
+
+@code { 
+    private List<Category>? categories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await Http.GetFromJsonAsync<List<Category>>("sample-data/categories.json");
+    }
+}

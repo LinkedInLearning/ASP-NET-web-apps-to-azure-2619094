@@ -1,0 +1,10 @@
+﻿@page
+@model HPlusSport.AzureMigration.WebApp.Pages.ProductModel
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">@Model.Product?.Name</h5>
+    <p class="card-text">@Model.Product?.Price.ToString("C")</p>
+    <a href="#" class="btn btn-primary">Add to cart</a>
+  </div>
+</div>

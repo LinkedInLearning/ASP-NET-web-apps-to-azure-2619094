@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/hplussport-azuremigration-webappdbserver/databases/HPlusSport.AzureMigration.WebApp_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ShopContextProduction"
+    }
+  }
+}

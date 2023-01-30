@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Active Wear - Men",
+    "products": null
+  },
+  {
+    "id": 2,
+    "name": "Active Wear - Women",
+    "products": null
+  },
+  {
+    "id": 3,
+    "name": "Mineral Water",
+    "products": null
+  },
+  {
+    "id": 4,
+    "name": "Publications",
+    "products": null
+  },
+  {
+    "id": 5,
+    "name": "Supplements",
+    "products": null
+  }
+]

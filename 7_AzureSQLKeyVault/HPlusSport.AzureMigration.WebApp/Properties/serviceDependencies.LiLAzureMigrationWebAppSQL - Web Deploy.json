@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/LiLAzureMigrationVault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
+    },
+    "mssql1": {
+      "secretStore": "AzureKeyVault",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/hplussport-azuremigration-webappdbserver/databases/HPlusSport.AzureMigration.WebApp_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ShopContextProduction"
+    }
+  }
+}

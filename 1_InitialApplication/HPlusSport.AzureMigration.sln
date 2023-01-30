@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSport.AzureMigration.WebApp", "HPlusSport.AzureMigration.WebApp\HPlusSport.AzureMigration.WebApp.csproj", "{22643F8C-1F63-4E3E-810B-B2075277625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSport.AzureMigration.BlazorWasm", "HPlusSport.AzureMigration.BlazorWasm\HPlusSport.AzureMigration.BlazorWasm.csproj", "{B88A9830-83F4-4B4F-92DC-9F17B8E06DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSport.AzureMigration.Models", "HPlusSport.AzureMigration.Models\HPlusSport.AzureMigration.Models.csproj", "{9442B31E-7114-418F-8FF9-3D28CCC1E96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22643F8C-1F63-4E3E-810B-B2075277625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22643F8C-1F63-4E3E-810B-B2075277625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22643F8C-1F63-4E3E-810B-B2075277625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22643F8C-1F63-4E3E-810B-B2075277625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88A9830-83F4-4B4F-92DC-9F17B8E06DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88A9830-83F4-4B4F-92DC-9F17B8E06DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88A9830-83F4-4B4F-92DC-9F17B8E06DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88A9830-83F4-4B4F-92DC-9F17B8E06DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9442B31E-7114-418F-8FF9-3D28CCC1E96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9442B31E-7114-418F-8FF9-3D28CCC1E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9442B31E-7114-418F-8FF9-3D28CCC1E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9442B31E-7114-418F-8FF9-3D28CCC1E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040AE212-0E01-43F4-9A9D-773B0D66D4D7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿@page
+@using HPlusSport.AzureMigration.WebApp.Models;
+@model HPlusSport.AzureMigration.WebApp.Pages.ProductsModel
+
+<div class="text-center">
+	<h1 class="display-4">H+ Sport</h1>
+
+	<div class="list-group">
+		@{
+			foreach (var product in Model.Products)
+			{
+				<a class="list-group-item list-group-item-action" asp-page="Product" asp-route-id="@product.Id">@product.Name</a>
+			}
+		}
+	</div>
+</div>

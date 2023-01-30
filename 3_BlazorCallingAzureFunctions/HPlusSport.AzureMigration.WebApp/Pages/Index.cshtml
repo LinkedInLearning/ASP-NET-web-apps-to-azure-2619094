@@ -1,0 +1,19 @@
+﻿@page
+@using HPlusSport.AzureMigration.WebApp.Models;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">H+ Sport</h1>
+
+	<div class="list-group">
+		@{
+			foreach (var category in Model.Categories)
+			{
+				<a class="list-group-item list-group-item-action" asp-page="Products" asp-route-id="@category.Id">@category.Name</a>
+			}
+		}
+	</div>
+</div>
