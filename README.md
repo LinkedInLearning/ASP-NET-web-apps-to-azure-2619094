@@ -1,7 +1,10 @@
 # ASP.NET Web Apps nach Azure migrieren
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `ASP.NET Web Apps nach Azure migrieren`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `ASP.NET Core Web-Apps nach Azure migrieren`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
+![ASP.NET Core Web-Apps nach Azure migrieren][lil-thumbnail-url] 
+
+Immer mehr Webanwendungen wandern in die Cloud, die Gründe dafür lauten höhere Verfügbarkeit und niedrigere Kosten. Kommt dabei ASP.NET Core zum Einsatz, bietet sich Microsofts eigene Azure-Cloud an: In diesem LinkedIn Learning Kurs führt Sie der erfahrene Webentwickler Christian Wenz durch den gesamten Migrationsprozess. Machen Sie sich mit der Terminologie, den Hosting-Optionen und den Ressourcengruppen-Setups vertraut, sehen Sie eine detaillierte Demo zur Migration einer Beispielanwendung und erfahren Sie, wie Sie Datenbanken nach Azure migrieren können. Außerdem lernen Sie die Migrationstools kennen, darunter den Azure App Service Migration Assistant, den Azure Migrate Service, den Data Migration Assistant und den Azure Database Migration Service.
 
 ## Anleitung
 
@@ -22,5 +25,5 @@ _Berater und Unternehmer_
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/christian-wenz) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/
+[lil-course-url]: https://www.linkedin.com/learning/asp-dot-net-core-web-apps-nach-azure-migrieren
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4D0DAQGlmOj2WLBpIQ/learning-public-crop_675_1200/0/1680083909400?e=2147483647&v=beta&t=Btp-x9o1OvCX1k8Ms0Jj-NTZb1Dl5_8WiofSCcLKCdI
